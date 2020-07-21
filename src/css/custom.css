@@ -11,17 +11,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .header__title {
-    width: 50%;
-    margin-left: auto;
     font-family: "Cafe24Oneprettynight", sans-serif !important;
     font-size: 18px;
 }
+
+.header__soundBtn {
+    position: absolute;
+    right: 10px;
+}
+
 
 .header__soundBtn,
 .header__soundImg {
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }

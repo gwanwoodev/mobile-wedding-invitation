@@ -1,14 +1,23 @@
+/* Cafe24Oneprettynight (Header Fonts) */
+@font-face {
+    font-family: "Cafe24Oneprettynight"; 
+    src: url("../fonts/Cafe24Oneprettynight.ttf");
+}
+
 .header {
     padding: 15px 20px;
-    background-color: #ea9fed;
+    background-color: #b5b9a3;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header__soundBtn {
+.header__title {
+    width: 50%;
     margin-left: auto;
+    font-family: "Cafe24Oneprettynight", sans-serif !important;
+    font-size: 18px;
 }
 
 .header__soundBtn,

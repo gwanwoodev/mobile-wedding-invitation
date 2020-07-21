@@ -93,6 +93,9 @@ body {
 
 /* useful */
 
+.hidden {
+    display: none;
+}
 .w100 {
     width: 100%;
 }

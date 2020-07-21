@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>문상희♥박연지 결혼합니다.</title>
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/photoswipe.css">
+    <link rel="stylesheet" href="./src/css/photoswipe-default-skin.css">
     <link rel="stylesheet" href="./src/css/custom.css">
 </head>
 
@@ -53,7 +55,27 @@
             </div>
         </section>
     </div>
+
+    <div id="gallery w100" data-pswp>
+        <!-- Detect image links from internal elements and generate PhotoSwipe objects. -->
+        <!-- If you want to display captions and authors, specify the data-caption and data-author attributes. -->
+        <a href="./src/images/gallery-photo.jpg" target="_blank" class="w100"
+            data-caption="This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text."
+            data-author="Photo by pixabay.com"><img src="./src/images/gallery-photo.jpg" alt=""
+                class="gallery__image w100"></a>
+        ...
+    </div>
+
+    <script src="./src/js/photoswipe.js" charset="utf-8"></script>
+    <script src="./src/js/photoswipe-ui-default.js" charset="utf-8"></script>
+    <script src="./src/js/photoswipe-simplify.js" charset="utf-8"></script>
     <script src="./src/js/custom.js"></script>
+    <script>
+        photoswipeSimplify.init({
+            history: false,
+            focus: false,
+        });
+    </script>
 </body>
 
 </html>

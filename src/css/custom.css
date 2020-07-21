@@ -1,7 +1,10 @@
-/* Cafe24Oneprettynight (Header Fonts) */
-@font-face {
-    font-family: "Cafe24Oneprettynight"; 
-    src: url("../fonts/Cafe24Oneprettynight.ttf");
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/bg.png");
 }
 
 .header {
@@ -12,10 +15,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 .header__title {
-    font-family: "Cafe24Oneprettynight", sans-serif !important;
     font-size: 18px;
 }
 
@@ -24,10 +28,125 @@
     right: 10px;
 }
 
-
 .header__soundBtn,
 .header__soundImg {
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.intro__box {
+    display: flex;
+    justify-content: center;
+}
+
+.inro__title--img1 {
+    width: 100%;
+}
+
+.intro__title--img2 {
+    width: 200px !important;
+}
+
+.intro__title--img3 {
+    opacity: 0;
+    animation-name: fadeEffect;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.images {
+    width: 100%;
+}
+
+.couple__box {
+    margin: 50px 0px;
+    color: #3e3e3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro__bottom {
+    color: #3e3e3e;
+    font-family: "GyeonggiBatang", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro__bottom--text {
+    
+}
+
+
+/* useful */
+
+.pa5 {
+    padding: 5px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.fs12 {
+    font-size: 1.2em;
+}
+
+.fs18 {
+    font-size: 1.8em;
+}
+
+.fs06 {
+    font-size: 0.6em;
+}
+
+.fc24 {
+    font-family: "Cafe24Oneprettynight", sans-serif !important;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+/* animation */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* fonts */
+@font-face {
+    font-family: "Cafe24Oneprettynight"; 
+    src: url("../fonts/Cafe24Oneprettynight.ttf");
+}
+
+@font-face {
+    font-family: "GyeonggiBatang";
+    src: url("../fonts/GyeonggiBatang.woff");
 }

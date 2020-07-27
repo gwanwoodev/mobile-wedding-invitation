@@ -45,12 +45,16 @@ body {
     width: 100%;
 }
 
+.intro__title--img2 {
+    width: 250px;
+}
+
 .intro__title--img3 {
     opacity: 0;
     animation-name: fadeEffect;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    max-height: 260px;
+    height: auto;
 }
 
 .images {

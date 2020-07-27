@@ -314,6 +314,14 @@ body {
     margin-right: 10px;
 }
 
+.mdc-text-field--textarea {
+    margin-bottom: 8px;
+}
+
+.sendButton {
+    background-color: #666 !important;
+}
+
 /* useful */
 
 .tc666 {
@@ -359,6 +367,10 @@ body {
 
 .fwb {
     font-weight: bold;
+}
+
+.fs09 {
+    font-size: 0.9em;
 }
 
 .fs10 {

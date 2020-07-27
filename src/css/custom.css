@@ -188,6 +188,66 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 50px;
+}
+.dday__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid #E3E3E6;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.dday__header--title {
+    color: #b7c3a4;
+    margin-bottom: 12px;
+}
+
+.dday__header--subtitle {
+    margin-bottom: 24px;
+}
+
+.dday__calendar {
+    margin: 20px;
+}
+
+.dday__calendar th {
+    text-align: center;
+    padding: 8px 0;
+    color: #484747;
+    border-top: 1px solid #CFCFD0;
+    border-bottom: 1px solid #CFCFD0;
+    font-size: 0.9em;
+}
+
+.dday__calendar td {
+    padding-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+    width: 40px;
+    color: #484747;
+}
+
+.dday__text {
+    background-color: #cfa4a4;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.dday__notice {
+    background-color: #9dae82;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /* useful */
@@ -257,6 +317,10 @@ body {
     font-size: 0.6em;
 }
 
+.fs30 {
+    font-size: 3em;
+}
+
 .fc24 {
     font-family: "Cafe24Oneprettynight", sans-serif !important;
 }
@@ -285,6 +349,9 @@ body {
     margin-bottom: 30px;
 }
 
+.mb40 {
+    margin-bottom: 40px;
+}
 /* animation */
 @keyframes fadeEffect {
     from {

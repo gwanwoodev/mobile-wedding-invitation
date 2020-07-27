@@ -21,7 +21,7 @@ body {
 }
 
 .header__title {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .header__soundBtn {
@@ -128,9 +128,39 @@ body {
     margin-right: 15px;
 }
 
-.gallery__intro {
+.parents__intro {
     display: flex;
     justify-content: center;
+}
+
+.parents__column {
+    text-align: center;
+}
+.parents__columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parents__box--icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.parents__column--title {
+    font-size: 0.8em;
+}
+.parents__column--text {
+    font-size: 0.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.gallery__intro {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .gallery__intro--text {
@@ -162,6 +192,9 @@ body {
 
 /* useful */
 
+.tc666 {
+    color: #666;
+}
 .icons {
     width: 40px;
 }
@@ -204,6 +237,10 @@ body {
     font-weight: bold;
 }
 
+.fs10 {
+    font-size: 1em;
+}
+
 .fs12 {
     font-size: 1.2em;
 }
@@ -224,6 +261,10 @@ body {
     font-family: "Cafe24Oneprettynight", sans-serif !important;
 }
 
+.fcmj {
+    font-family: "NanumMyeongjo", sans-serif !important;
+}
+
 .mr5 {
     margin-right: 5px;
 }
@@ -238,6 +279,10 @@ body {
 
 .mb20 {
     margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
 }
 
 /* animation */
@@ -259,4 +304,9 @@ body {
 @font-face {
     font-family: "GyeonggiBatang";
     src: url("../fonts/GyeonggiBatang.woff");
+}
+
+@font-face {
+    font-family: "NanumMyeongjo";
+    src: url("../fonts/NanumMyeongjo.ttf");
 }

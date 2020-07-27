@@ -248,6 +248,12 @@ body {
     padding: 10px 30px 10px 30px;
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 40px;
+}
+
+.map__container {
+    width: 100% !important;
+    max-height: 310px !important;
 }
 
 /* useful */

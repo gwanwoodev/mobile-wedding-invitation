@@ -254,6 +254,29 @@ body {
 .map__container {
     width: 100% !important;
     max-height: 310px !important;
+    margin-bottom: 40px;
+}
+
+.place__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.place__header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.place__title {
+    margin-bottom: 10px;
+}
+
+
+.place__section {
+    text-align: center;
+    margin-bottom: 12px;
 }
 
 /* useful */

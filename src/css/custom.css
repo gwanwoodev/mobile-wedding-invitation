@@ -262,6 +262,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .place__header {
@@ -277,6 +278,38 @@ body {
 .place__section {
     text-align: center;
     margin-bottom: 12px;
+}
+
+.notice__image {
+    margin-bottom: 30px;
+}
+
+.account__container {
+    padding: 0px 20px 0px 20px;
+}
+
+.account__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #D2D2D6;
+    margin-bottom: 15px;
+}
+
+.account__icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.account__contents {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.faceIcon {
+    width: 30px;
+    margin-right: 10px;
 }
 
 /* useful */

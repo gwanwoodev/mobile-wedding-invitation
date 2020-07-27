@@ -72,6 +72,22 @@ body {
     align-items: center;
 }
 
+.blessing__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #555;
+}
+
+.blessing__box--text {
+    font-family: "GyeonggiBatang", sans-serif !important;
+    font-size: 1em;
+}
+
+.blessing__box--text:not(:last-child) {
+    margin-bottom: 10px;
+}
 
 .gallery__intro {
     display: flex;
@@ -82,6 +98,7 @@ body {
     font-family: "GyeonggiBatang", sans-serif !important;
     color: #3e3e3e;
 }
+
 #gallery {
     width: 100%;
 }
@@ -121,6 +138,9 @@ body {
     padding: 15px;
 }
 
+.pa40 {
+    padding: 40px;
+}
 .pt40 {
     padding-top: 40px;
 }

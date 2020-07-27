@@ -45,10 +45,6 @@ body {
     width: 100%;
 }
 
-.intro__title--img2 {
-    width: 200px !important;
-}
-
 .intro__title--img3 {
     opacity: 0;
     animation-name: fadeEffect;
@@ -77,6 +73,15 @@ body {
 }
 
 
+.gallery__intro {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__intro--text {
+    font-family: "GyeonggiBatang", sans-serif !important;
+    color: #3e3e3e;
+}
 #gallery {
     width: 100%;
 }
@@ -110,6 +115,10 @@ body {
 
 .pa7 {
     padding: 7px;
+}
+
+.pa15 {
+    padding: 15px;
 }
 
 .pt40 {

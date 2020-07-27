@@ -50,6 +50,7 @@ body {
     animation-name: fadeEffect;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    max-height: 260px;
 }
 
 .images {

@@ -89,6 +89,45 @@ body {
     margin-bottom: 10px;
 }
 
+.contact__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact__box--text {
+    color: #555;
+}
+
+.contact__box--profile {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;
+}
+
+.contact__box__profile--man {
+    background-image: url(../images/gallery06.jpg);
+}
+
+.contact__box__profile--woman {
+    background-image: url(../images/gallery05.jpg);
+}
+
+.contact__icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-top: 1px dashed #B5B6B8;
+}
+
+.goormbride__phone--img {
+    margin-right: 15px;
+}
+
 .gallery__intro {
     display: flex;
     justify-content: center;
@@ -123,6 +162,10 @@ body {
 
 /* useful */
 
+.icons {
+    width: 40px;
+}
+
 .hidden {
     display: none;
 }
@@ -149,6 +192,10 @@ body {
     padding-bottom: 10px;
 }
 
+.pb20 {
+    padding-bottom: 20px;
+}
+
 .pb40 {
     padding-bottom: 40px;
 }
@@ -159,6 +206,10 @@ body {
 
 .fs12 {
     font-size: 1.2em;
+}
+
+.fs15 {
+    font-size: 1.5em;
 }
 
 .fs18 {

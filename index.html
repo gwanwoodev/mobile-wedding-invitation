@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/css/photoswipe.css">
     <link rel="stylesheet" href="./src/css/photoswipe-default-skin.css">
     <link rel="stylesheet" href="./src/css/custom.css">
+    <link rel="stylesheet" href="./src/css/material-components-web.min.css">
 </head>
 
 <body>
@@ -345,16 +346,48 @@
         </div>
     </div>
 
+    <div class="gallery__intro pb20">
+        <p class="gallery__intro--text fs09 fwb mb10">
+            Messages
+        </p>
+        <p class="gallery__intro--text fs12 fwb">
+            신랑ㆍ신부에게 축하메세지를 보내주세요
+        </p>
+
+        <label class="mdc-text-field mdc-text-field--filled mt30 mb10">
+            <span class="mdc-text-field__ripple"></span>
+            <input type="text" class="mdc-text-field__input input__name" aria-labelledby="my-label">
+            <span class="mdc-floating-label" id="my-label">성함</span>
+            <span class="mdc-line-ripple"></span>
+        </label>
+
+        <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea">
+            <span class="mdc-text-field__resizer">
+                <textarea class="mdc-text-field__input" rows="8" cols="40" aria-label="Message"
+                    placeholder="축하 메세지를 보내주세요"></textarea>
+            </span>
+            <span class="mdc-notched-outline">
+                <span class="mdc-notched-outline__leading"></span>
+                <span class="mdc-notched-outline__trailing"></span>
+            </span>
+        </label>
+    </div>
+
 
 
     <script src="./src/js/photoswipe.js" charset="utf-8"></script>
     <script src="./src/js/photoswipe-ui-default.js" charset="utf-8"></script>
     <script src="./src/js/photoswipe-simplify.js" charset="utf-8"></script>
+    <script src="./src/js/material-components-web.min.js"></script>
     <script src="./src/js/custom.js"></script>
     <script>
         photoswipeSimplify.init({
             history: false,
             focus: false,
+        });
+
+        document.querySelectorAll(".mdc-text-field").forEach(item => {
+            mdc.textField.MDCTextField.attachTo(item);
         });
     </script>
 </body>

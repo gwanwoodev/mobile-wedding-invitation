@@ -18,8 +18,8 @@ const getWeddingDay = () => {
 const kakaoNaviStart = () => {
     Kakao.Navi.start({
         name: "드메르웨딩홀",
-        x: 459493,
-        y: 475488,
+        x: 35.2080331503099,
+        y: 126.821766631361,
         coordType: 'wgs84'
     });
 }

@@ -54,7 +54,8 @@ body {
 }
 
 .intro__title--img3 {
-    opacity: 0;
+    min-height: 300px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -351,6 +352,11 @@ body {
     cursor: pointer;
 }
 
+.fixedButton,
+.topButton {
+    width: 30px !important;
+    height: 30px;
+}
 /* useful */
 
 .tc666 {

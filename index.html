@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./src/css/custom.css">
     <link rel="stylesheet" href="./src/css/material_icons.css">
     <link rel="stylesheet" href="./src/css/material-components-web.min.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 
 <body>
@@ -337,8 +338,9 @@
                 NAVIGATION_
             </div>
             <div class="navi__column mr7">
-                <p class="navi__text mr7">카카오네비</p>
-                <img src="src/images/navigation_kakao.png" alt="navi_kakao" class="naviImages" />
+                <p class="navi__text mr7">카카오내비</p>
+                <img src="src/images/navigation_kakao.png" alt="navi_kakao" class="naviImages kakaoNaviButton"
+                    onclick="kakaoNaviStart();" />
             </div>
             <div class="navi__column">
                 <p class="navi__text mr7">티맵</p>

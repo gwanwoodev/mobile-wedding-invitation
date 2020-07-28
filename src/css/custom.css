@@ -347,6 +347,7 @@ body {
 
 .naviImages {
     width: 30px;
+    cursor: pointer;
 }
 
 /* useful */

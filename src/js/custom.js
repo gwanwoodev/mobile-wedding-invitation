@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let weddingDayDOM = document.querySelector(".dday__notice");
     const weddingDay = getWeddingDay();
     weddingDayDOM.innerHTML = `* 예식일이 ${weddingDay}일 남았습니다.`;
+
+    Kakao.init("6e41fce061bf1767e40b8d6ea117dc53");
 });
 
 const getWeddingDay = () => {
@@ -11,4 +13,13 @@ const getWeddingDay = () => {
     const dateObj = new Date(dateArray[0], Number(dateArray[1]) - 1, dateArray[2]);
     const betweenDay = (today.getTime() - dateObj.getTime()) / 1000 / 60 / 60 / 24;
     return Math.abs(Math.floor(betweenDay));
+}
+
+const kakaoNaviStart = () => {
+    Kakao.Navi.start({
+        name: "드메르웨딩홀",
+        x: 459493,
+        y: 475488,
+        coordType: 'wgs84'
+    });
 }

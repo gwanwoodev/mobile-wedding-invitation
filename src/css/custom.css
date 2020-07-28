@@ -326,6 +326,29 @@ body {
     background-color: #666 !important;
 }
 
+.navi__container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 30px 0px 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.navi__columns {
+    display: flex;
+    align-items: center;
+
+}
+
+.navi__column {
+    display: flex;
+    align-items: center;
+}
+
+.naviImages {
+    width: 30px;
+}
+
 /* useful */
 
 .tc666 {
@@ -411,6 +434,14 @@ body {
 
 .mr5 {
     margin-right: 5px;
+}
+
+.mr7 {
+    margin-right: 7px;
+}
+
+.mr10 {
+    margin-right: 10px;
 }
 
 .mb5 {

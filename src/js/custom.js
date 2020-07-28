@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     weddingDayDOM.innerHTML = `* 예식일이 ${weddingDay}일 남았습니다.`;
 
     Kakao.init("6e41fce061bf1767e40b8d6ea117dc53");
+
+
+
 });
 
 const getWeddingDay = () => {
@@ -22,4 +25,20 @@ const kakaoNaviStart = () => {
         y: 35.2080331503099,
         coordType: 'wgs84'
     });
+}
+
+let audioStatus = true;
+
+const audioControl = () => {
+    audioStatus = !audioStatus;
+    let audioImageDOM = document.querySelector(".header__soundImg");
+    let audioDOM = document.querySelector(".audio");
+    let newAudioImage = audioStatus ? `./src/images/sound_on.gif` : `./src/images/sound_off.gif`;
+    audioImageDOM.setAttribute("src", newAudioImage);
+
+    if (audioStatus) {
+        audioDOM.play();
+    } else {
+        audioDOM.pause();
+    }
 }

@@ -22,10 +22,16 @@
 
 <body>
     <div id="container">
+        <div id="audio__player">
+            <audio autoplay hidden loop class="audio">
+                <source src="./src/music/Love_You.mp3" type="audio/mpeg">
+            </audio>
+        </div>
         <header class="header">
             <div class="header__title fc24">문상희♥박연지 결혼합니다.</div>
             <div class="header__soundBtn">
-                <img src="./src/images/sound_on.gif" alt="sound_on" class="header__soundImg" />
+                <img src="./src/images/sound_on.gif" alt="sound_on" class="header__soundImg"
+                    onclick="audioControl();" />
             </div>
         </header>
         <section class="intro">

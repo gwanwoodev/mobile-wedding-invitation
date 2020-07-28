@@ -47,13 +47,13 @@ body {
 }
 
 .inro__title--img1 {
-  width: 100%;
   max-height: 120px;
+  max-width: 100%;
 }
 
 .intro__title--img2 {
-  width: 250px !important;
-  max-height: 33px;
+  max-height: 51px;
+  max-width: 270px;
 }
 
 .intro__title--img3 {

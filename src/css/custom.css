@@ -5,6 +5,10 @@ html, body {
 
 body {
     background-image: url("../images/bg.png");
+    opacity: 0;
+    animation-name: fadeEffect;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 .header {
@@ -51,9 +55,6 @@ body {
 
 .intro__title--img3 {
     opacity: 0;
-    animation-name: fadeEffect;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
     height: auto;
 }
 

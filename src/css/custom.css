@@ -59,6 +59,10 @@ body {
   height: auto;
 }
 
+.main_photo_zone {
+  max-height: 270px;
+}
+
 .images {
   width: 100%;
 }
